@@ -577,7 +577,7 @@ values and see how the note changes.
 **Troubleshooting** if this *didn't* work, there are a few possible causes:
 
 -   is your audio interface configured properly? Running the `./extempore
-    --print-deivces` at the command line will print a list of all the audio
+    --print-devices` at the command line will print a list of all the audio
     devices the system knows about. Make sure that you're using the right
     one---you can specify which device Extempore should use with the `--device`
     argument e.g. `./extempore --device 2`, where `2` is the index (in the
@@ -590,6 +590,6 @@ values and see how the note changes.
     you like with `play-note`, if the return values of `organ` aren't getting
     passed to the audio output then you won't hear anything!
 
-Stay tuned for the next exciting instalment, where we'll actually *play* our
+Stay tuned for the next exciting installment, where we'll actually *play* our
 instrument in some more interesting ways: like *actual music*. We'll get there,
 I promise!
